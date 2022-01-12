@@ -1,0 +1,65 @@
+.App {
+  font-family: sans-serif;
+}
+
+.main {
+  margin: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.content {
+  background-color: hsl(0, 17%, 91%);
+  border-radius: 25px;
+  display: flex;
+  margin-bottom: 10px;
+  box-shadow: 5px;
+}
+
+.leftContent {
+  margin: 10px;
+  height: 100px;
+  width: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box {
+  height: 50px;
+  width: 50px;
+  border: 1px solid black;
+}
+.text {
+  margin-left: 5px;
+}
+.item {
+  margin: 0;
+}
+.name {
+  margin: 1px;
+}
+.price {
+  color: #ff5100;
+}
+.rightContent {
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.button {
+  padding: 6px;
+}
+.button:hover {
+  color: blue;
+}
+
+.total {
+  display: block;
+  margin: 20px;
+  height: 100px;
+}
